@@ -1,0 +1,170 @@
+
+body {
+
+width: 100vw;
+height: 100vw;
+font-family: Arial;
+font-weight: 800;
+font-size: 80%;
+}
+
+#content {
+  top: 0;
+  right: 0;
+  bottom: 37%;
+  left: 0;
+  position: absolute;
+  display: block;
+  width: 45%;
+  height: 20%;
+  margin: auto;
+}
+
+#content img {
+  position: relative;
+  display: block;
+  margin: auto;
+}
+
+#content p {
+  position: relative;
+  text-align: center;
+}
+
+
+#searchBar {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: relative;
+  display: block;
+  width: 90%;
+  height: 2em;
+  margin: auto;
+  padding: 1em
+
+}
+
+.submit {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 20%;
+  position: relative;
+  display: inline-block;
+  width: 30%;
+  height: 3em;
+  margin: 3em 0;
+
+}
+
+input {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  font-family: Arial;
+font-weight: 800;
+}
+
+
+nav {
+
+position: absolute;
+display: inline-block;
+top: 0;
+right: 0%;
+bottom: 0;
+left: 0;
+}
+
+nav p {
+display: inline-block;
+float: right;
+padding: 1em;
+}
+
+#navLinks {
+display: inline-block;
+position: relative;
+float: right;
+top: 0.7em;
+padding: 1em;
+
+}
+
+nav img {
+display: inline-block;
+float: right;
+padding: 1em;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 0 1em;
+
+}
+footer {
+position: absolute;
+display: inline-block;
+top: 89%;
+right: 0;
+bottom: 0;
+left: 0;
+background-color:#e3e7ed;
+}
+
+#greyBox1 {
+  position: absolute;
+  display: block;
+  height: 50%;
+  width: 100%;
+  color:#878b91;
+}
+
+#greyBox1 p {
+  padding: 0 0 0 1.3em;
+
+}
+
+#greyBox2 {
+  position: absolute;
+  display: block;
+  height: 50%;
+  top: 51%;
+  width: 100%;
+  border-top: 2px #d0d3d8 solid;
+color:#878b91;
+}
+
+#greyBox2_left {
+  float: left;
+}
+
+#greyBox2_right {
+  float: right;
+  padding: 0 1.3em 0 0;
+}
+
+#greyBox2 a {
+position: relative;
+margin: auto 0;
+top:1.1em;
+text-decoration: none;
+padding: 0 0 0 1.3em;
+color: #878b91;
+}
+
+#greyBox2 a:hover {
+text-decoration: underline;
+}
+
+a:hover {
+text-decoration: underline;
+}

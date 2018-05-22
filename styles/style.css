@@ -1,12 +1,48 @@
 
 body {
-
-width: 100vw;
-height: 100vw;
-font-family: Arial;
-font-weight: 800;
-font-size: 80%;
+  font-family: Arial;
+  font-weight: 800;
+  font-size: 80%;
 }
+
+
+/* Navigation-Bar Style */
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: right;
+}
+
+#navLinks {
+  position: relative;
+  float: right;
+  top: 0.7em;
+  padding: 1em 0;
+}
+
+nav img {
+  padding: 1em 0;
+}
+
+li a {
+  text-decoration: none;
+  padding: 0.5em;
+  color: black;
+  display: block;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+/* Content-Style */
 
 #content {
   top: 0;
@@ -29,99 +65,47 @@ font-size: 80%;
 #content p {
   position: relative;
   text-align: center;
+  margin-top: 2em;
 }
 
 
 #searchBar {
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  position: relative;
-  display: block;
   width: 90%;
   height: 2em;
-  margin: auto;
   padding: 1em
-
 }
 
+
 .submit {
-  top: 0;
-  right: 0;
-  bottom: 0;
   left: 20%;
-  position: relative;
-  display: inline-block;
   width: 30%;
   height: 3em;
-  margin: 3em 0;
-
+  margin-top: 2em;
 }
 
 input {
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
   position: relative;
   display: inline-block;
   width: 100%;
   height: 100%;
-  margin: auto;
-  font-family: Arial;
-font-weight: 800;
 }
 
 
-nav {
+/* Footer-Style */
 
-position: absolute;
-display: inline-block;
-top: 0;
-right: 0%;
-bottom: 0;
-left: 0;
-}
 
-nav p {
-display: inline-block;
-float: right;
-padding: 1em;
-}
-
-#navLinks {
-display: inline-block;
-position: relative;
-float: right;
-top: 0.7em;
-padding: 1em;
-
-}
-
-nav img {
-display: inline-block;
-float: right;
-padding: 1em;
-}
-
-nav a {
-  text-decoration: none;
-  padding: 0 1em;
-
-}
 footer {
-position: absolute;
-display: inline-block;
-top: 89%;
-right: 0;
-bottom: 0;
-left: 0;
-background-color:#e3e7ed;
+  position: absolute;
+  display: inline-block;
+  top: 89%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color:#e3e7ed;
 }
 
 #greyBox1 {
-  position: absolute;
+  position: relative;
   display: block;
   height: 50%;
   width: 100%;
@@ -129,8 +113,7 @@ background-color:#e3e7ed;
 }
 
 #greyBox1 p {
-  padding: 0 0 0 1.3em;
-
+  padding-left:1.3em;
 }
 
 #greyBox2 {
@@ -140,24 +123,24 @@ background-color:#e3e7ed;
   top: 51%;
   width: 100%;
   border-top: 2px #d0d3d8 solid;
-color:#878b91;
+  color:#878b91;
 }
 
 #greyBox2_left {
   float: left;
+  padding-left:1.3em;
 }
 
 #greyBox2_right {
   float: right;
-  padding: 0 1.3em 0 0;
+  padding-right:1.3em;
+
 }
 
 #greyBox2 a {
 position: relative;
-margin: auto 0;
 top:1.1em;
 text-decoration: none;
-padding: 0 0 0 1.3em;
 color: #878b91;
 }
 
@@ -165,6 +148,3 @@ color: #878b91;
 text-decoration: underline;
 }
 
-a:hover {
-text-decoration: underline;
-}
